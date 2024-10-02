@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black & White Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #333;
+        }
+        #ooo {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        #container {
+            width: 960px;
+            margin: 0 auto;
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        #main {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        #sidebar {
+            width: 30%;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        #content {
+            width: 70%;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        #footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        #news-item {
+            margin-bottom: 20px;
+        }
+
+        #comment {
+            font-size: 0.9em;
+            color: #666;
+            margin-right: 20px;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>BLACK & WHITE</h1>
+            <p>Company Slogan Goes Here</p>
+        </header>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Gallery</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div id="main">
+            <div id="sidebar">
+                <h2 id = "ooo">Customer Login</h2>
+                <form>
+                    <label for="login">Login Name:</label><br>
+                    <input type="text" id="login" name="login"><br><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password"><br><br>
+                    <button type="submit">Login</button><br><br>
+                    <a href="#">Forgot your password?</a>
+                </form>
+
+                <h2 id="ooo">Company News</h2>
+                <div id="news-item">
+                    <p><strong>June 23, 2011</strong></p>
+                    <p>Tempus in, lacus. Duis tempor posuere diam.Suspendisse vel tellus guis nunc malesuada porta...</p>
+                </div>
+                <div id="news-item">
+                    <p><strong>March 4, 2011</strong></p>
+                    <p>Nulla id magna sed dolor sollicitudin laoreet tempus in lacus.Duis tempor posuere diam...</p>
+                </div>
+                <div id="news-item">
+                    <p><strong>February 18, 2011</strong></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                </div>
+                <div id="news-item">
+                    <p><strong>February 12, 2011</strong></p>
+                    <p>Sed dolor sollicitudin laoreet tempus in lacus.Duis tempor posuere diam. Suspendisse.</p>
+                </div>
+                <div id="news-item">
+                    <p><strong>February 1, 2011</strong></p>
+                    <p>Ipsum dolor sit amet consectetur adipiscing elit.In sec...</p>
+                </div>
+            </div>
+
+            <div id="content">
+                <h2>Welcome to Our Website!</h2>
+                <h3>Metamorphosis Design</h3>
+                <p>Dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nis ut aliquip ex ea commodo consequat.
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat...</p>
+                <p id="comment">Comments(2) &bull; 21.02</p>
+                <h3>Free Website Templates</h3>
+                <p>Sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nis ut aliquip ex ea commodo consequat.
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat...</p>
+                    
+                 <p id="comment">Comments(8) &bull; 13.46</p>
+                <h3>Flash Templates</h3>
+                <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisi ut aliquip ex ea commodo consequat.
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat...</p>
+
+                <p id="comment">Comments(2) &bull; 21.02</p>
+                
+            </div>
+        </div>
+
+        <div id="footer">
+            <p>&copy; 2011 Flash Templates | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a
+                    href="#">XHTML</a> | <a href="#">CSS</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
